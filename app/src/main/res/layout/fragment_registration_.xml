@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration_Fragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+       <TextView
+           android:id="@+id/tv_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Name:"
+           android:textSize="22dp"
+           android:textStyle="bold"
+
+           />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textSize="22dp"
+            android:layout_below="@id/tv_name"
+            />
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textSize="22dp"
+            android:layout_below="@+id/et_name"
+            android:textStyle="bold"
+
+            />
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_username"
+            android:hint="Enter your username"
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_below="@id/et_username"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/tv_password"
+            android:textSize="22dp"
+            />
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_below="@+id/et_password"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="#FFF"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

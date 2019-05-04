@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemAdd"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_itemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ItemName:"
+        android:textStyle="bold"
+        android:textSize="22dp"
+
+        />
+    <EditText
+        android:id="@+id/et_itemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the ItemName"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:id="@+id/tv_itemprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ItemPrice:"
+        android:textStyle="bold"
+        android:textSize="22dp"
+
+        />
+    <EditText
+        android:id="@+id/et_itemprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the ItemPrice"
+        android:inputType="number"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:id="@+id/tv_itemimage_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ItemImageName:"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/et_itemimage_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the ItemImageName"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:id="@+id/tv_imagedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageDescription:"
+        android:textSize="22dp"
+        />
+    <EditText
+        android:id="@+id/et_imagedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the ImageDescription"
+        android:textSize="22dp"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_additem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddItem"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_showitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowItem"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
